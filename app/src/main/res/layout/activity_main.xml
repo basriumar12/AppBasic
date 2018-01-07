@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:gravity="right"
+            android:text="Nama Pengguna"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text=" : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="name your"
+        android:layout_weight="1"
+            android:id="@+id/tvMain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+   <Button
+       android:background="@drawable/bgbutton"
+       android:onClick="persegi"
+       android:id="@+id/persegi"
+       android:layout_margin="10dp"
+       android:text="Persegi"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+    <Button
+       android:background="@drawable/bgbutton"
+       android:onClick="kakulator"
+       android:id="@+id/kakulator"
+       android:layout_margin="10dp"
+       android:text="Kakulator Mini"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+    <Button
+       android:background="@drawable/bgbutton"
+       android:onClick="input"
+       android:id="@+id/input"
+       android:layout_margin="10dp"
+       android:text="Input Data"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+    <Button
+        android:background="@drawable/bgbutton"
+        android:onClick="customActivity"
+        android:id="@+id/customActivty"
+        android:layout_margin="10dp"
+        android:text="Custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

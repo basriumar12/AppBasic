@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Hari 2</string>
+    <string name="operartor">+</string>
+    <string name="masukkan_bilangan_b">Input Nilai B</string>
+    <string name="input_nilai_a">Input Nilai A</string>
+    <string name="samadengan">=</string>
+    <string name="hitung">hitung</string>
+    <string name="isiPesan">Ini toast</string>
+    <string name="login">login</string>
+    <string name="username">username</string>
+    <string name="inputusername">input username</string>
+    <string name="pass">input pass</string>
+    <string name="btnsmpn">save</string>
+    <string name="btncancel">cancel</string>
+    <string name="inputpass">input pass</string>
+    <string name="userkosong">user tidak bisa kosong</string>
+    <string name="passkosong">pass tidak bisa kosong</string>
+    <string name="karakterlebih5">tidak bisa kurang dari 5</string>
+</resources>

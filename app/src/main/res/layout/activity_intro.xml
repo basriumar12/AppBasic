@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.blogbasbas.hari2.activity.IntroActivity">
+    <EditText
+        android:textColorHint="@android:color/black"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bgbutton"
+        android:id="@+id/edtIntro"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:hint="Input Your Name..."
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <Button
+        android:background="@android:color/holo_red_light"
+        android:layout_marginRight="15dp"
+        android:layout_gravity="right"
+        android:id="@+id/btnIntro"
+        android:text="Ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
